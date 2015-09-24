@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CCDB481BAC654B0002692C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB471BAC654B0002692C /* main.m */; };
+		19CCDB4B1BAC654B0002692C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB4A1BAC654B0002692C /* AppDelegate.m */; };
+		19CCDB4E1BAC654B0002692C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB4D1BAC654B0002692C /* ViewController.m */; };
+		19CCDB511BAC654B0002692C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CCDB4F1BAC654B0002692C /* Main.storyboard */; };
+		19CCDB531BAC654B0002692C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CCDB521BAC654B0002692C /* Images.xcassets */; };
+		19CCDB561BAC654B0002692C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19CCDB541BAC654B0002692C /* LaunchScreen.xib */; };
+		19CCDB621BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB611BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.m */; };
+		19CCDB721BAC65870002692C /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 19CCDB6C1BAC65870002692C /* WebViewJavascriptBridge.js.txt */; };
+		19CCDB731BAC65870002692C /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB6D1BAC65870002692C /* WebViewJavascriptBridge.m */; };
+		19CCDB741BAC65870002692C /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB6F1BAC65870002692C /* WebViewJavascriptBridgeBase.m */; };
+		19CCDB751BAC65870002692C /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CCDB711BAC65870002692C /* WKWebViewJavascriptBridge.m */; };
+		19CCDB771BAC65EB0002692C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 19CCDB761BAC65EB0002692C /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19CCDB5C1BAC654C0002692C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CCDB3A1BAC654B0002692C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CCDB411BAC654B0002692C;
+			remoteInfo = WebViewAndJavaScriptTest2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19CCDB421BAC654B0002692C /* WebViewAndJavaScriptTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewAndJavaScriptTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CCDB461BAC654B0002692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CCDB471BAC654B0002692C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19CCDB491BAC654B0002692C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19CCDB4A1BAC654B0002692C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19CCDB4C1BAC654B0002692C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19CCDB4D1BAC654B0002692C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19CCDB501BAC654B0002692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19CCDB521BAC654B0002692C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19CCDB551BAC654B0002692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19CCDB5B1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewAndJavaScriptTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CCDB601BAC654C0002692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CCDB611BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewAndJavaScriptTest2Tests.m; sourceTree = "<group>"; };
+		19CCDB6B1BAC65870002692C /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		19CCDB6C1BAC65870002692C /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		19CCDB6D1BAC65870002692C /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		19CCDB6E1BAC65870002692C /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		19CCDB6F1BAC65870002692C /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		19CCDB701BAC65870002692C /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		19CCDB711BAC65870002692C /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		19CCDB761BAC65EB0002692C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CCDB3F1BAC654B0002692C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CCDB581BAC654C0002692C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CCDB391BAC654B0002692C = {
+			isa = PBXGroup;
+			children = (
+				19CCDB441BAC654B0002692C /* WebViewAndJavaScriptTest2 */,
+				19CCDB5E1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests */,
+				19CCDB431BAC654B0002692C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19CCDB431BAC654B0002692C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CCDB421BAC654B0002692C /* WebViewAndJavaScriptTest2.app */,
+				19CCDB5B1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CCDB441BAC654B0002692C /* WebViewAndJavaScriptTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				19CCDB491BAC654B0002692C /* AppDelegate.h */,
+				19CCDB4A1BAC654B0002692C /* AppDelegate.m */,
+				19CCDB4C1BAC654B0002692C /* ViewController.h */,
+				19CCDB4D1BAC654B0002692C /* ViewController.m */,
+				19CCDB4F1BAC654B0002692C /* Main.storyboard */,
+				19CCDB521BAC654B0002692C /* Images.xcassets */,
+				19CCDB541BAC654B0002692C /* LaunchScreen.xib */,
+				19CCDB451BAC654B0002692C /* Supporting Files */,
+			);
+			path = WebViewAndJavaScriptTest2;
+			sourceTree = "<group>";
+		};
+		19CCDB451BAC654B0002692C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CCDB6B1BAC65870002692C /* WebViewJavascriptBridge.h */,
+				19CCDB6C1BAC65870002692C /* WebViewJavascriptBridge.js.txt */,
+				19CCDB6D1BAC65870002692C /* WebViewJavascriptBridge.m */,
+				19CCDB6E1BAC65870002692C /* WebViewJavascriptBridgeBase.h */,
+				19CCDB6F1BAC65870002692C /* WebViewJavascriptBridgeBase.m */,
+				19CCDB701BAC65870002692C /* WKWebViewJavascriptBridge.h */,
+				19CCDB711BAC65870002692C /* WKWebViewJavascriptBridge.m */,
+				19CCDB461BAC654B0002692C /* Info.plist */,
+				19CCDB471BAC654B0002692C /* main.m */,
+				19CCDB761BAC65EB0002692C /* index.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19CCDB5E1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19CCDB611BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.m */,
+				19CCDB5F1BAC654C0002692C /* Supporting Files */,
+			);
+			path = WebViewAndJavaScriptTest2Tests;
+			sourceTree = "<group>";
+		};
+		19CCDB5F1BAC654C0002692C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CCDB601BAC654C0002692C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CCDB411BAC654B0002692C /* WebViewAndJavaScriptTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CCDB651BAC654C0002692C /* Build configuration list for PBXNativeTarget "WebViewAndJavaScriptTest2" */;
+			buildPhases = (
+				19CCDB3E1BAC654B0002692C /* Sources */,
+				19CCDB3F1BAC654B0002692C /* Frameworks */,
+				19CCDB401BAC654B0002692C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewAndJavaScriptTest2;
+			productName = WebViewAndJavaScriptTest2;
+			productReference = 19CCDB421BAC654B0002692C /* WebViewAndJavaScriptTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19CCDB5A1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CCDB681BAC654C0002692C /* Build configuration list for PBXNativeTarget "WebViewAndJavaScriptTest2Tests" */;
+			buildPhases = (
+				19CCDB571BAC654C0002692C /* Sources */,
+				19CCDB581BAC654C0002692C /* Frameworks */,
+				19CCDB591BAC654C0002692C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CCDB5D1BAC654C0002692C /* PBXTargetDependency */,
+			);
+			name = WebViewAndJavaScriptTest2Tests;
+			productName = WebViewAndJavaScriptTest2Tests;
+			productReference = 19CCDB5B1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CCDB3A1BAC654B0002692C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sdzy;
+				TargetAttributes = {
+					19CCDB411BAC654B0002692C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					19CCDB5A1BAC654C0002692C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 19CCDB411BAC654B0002692C;
+					};
+				};
+			};
+			buildConfigurationList = 19CCDB3D1BAC654B0002692C /* Build configuration list for PBXProject "WebViewAndJavaScriptTest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CCDB391BAC654B0002692C;
+			productRefGroup = 19CCDB431BAC654B0002692C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CCDB411BAC654B0002692C /* WebViewAndJavaScriptTest2 */,
+				19CCDB5A1BAC654C0002692C /* WebViewAndJavaScriptTest2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CCDB401BAC654B0002692C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CCDB771BAC65EB0002692C /* index.html in Resources */,
+				19CCDB721BAC65870002692C /* WebViewJavascriptBridge.js.txt in Resources */,
+				19CCDB511BAC654B0002692C /* Main.storyboard in Resources */,
+				19CCDB561BAC654B0002692C /* LaunchScreen.xib in Resources */,
+				19CCDB531BAC654B0002692C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CCDB591BAC654C0002692C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CCDB3E1BAC654B0002692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CCDB4E1BAC654B0002692C /* ViewController.m in Sources */,
+				19CCDB731BAC65870002692C /* WebViewJavascriptBridge.m in Sources */,
+				19CCDB4B1BAC654B0002692C /* AppDelegate.m in Sources */,
+				19CCDB481BAC654B0002692C /* main.m in Sources */,
+				19CCDB741BAC65870002692C /* WebViewJavascriptBridgeBase.m in Sources */,
+				19CCDB751BAC65870002692C /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CCDB571BAC654C0002692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CCDB621BAC654C0002692C /* WebViewAndJavaScriptTest2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19CCDB5D1BAC654C0002692C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CCDB411BAC654B0002692C /* WebViewAndJavaScriptTest2 */;
+			targetProxy = 19CCDB5C1BAC654C0002692C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19CCDB4F1BAC654B0002692C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CCDB501BAC654B0002692C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19CCDB541BAC654B0002692C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CCDB551BAC654B0002692C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19CCDB631BAC654C0002692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19CCDB641BAC654C0002692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CCDB661BAC654C0002692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebViewAndJavaScriptTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19CCDB671BAC654C0002692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebViewAndJavaScriptTest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19CCDB691BAC654C0002692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewAndJavaScriptTest2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewAndJavaScriptTest2.app/WebViewAndJavaScriptTest2";
+			};
+			name = Debug;
+		};
+		19CCDB6A1BAC654C0002692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebViewAndJavaScriptTest2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewAndJavaScriptTest2.app/WebViewAndJavaScriptTest2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CCDB3D1BAC654B0002692C /* Build configuration list for PBXProject "WebViewAndJavaScriptTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CCDB631BAC654C0002692C /* Debug */,
+				19CCDB641BAC654C0002692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CCDB651BAC654C0002692C /* Build configuration list for PBXNativeTarget "WebViewAndJavaScriptTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CCDB661BAC654C0002692C /* Debug */,
+				19CCDB671BAC654C0002692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19CCDB681BAC654C0002692C /* Build configuration list for PBXNativeTarget "WebViewAndJavaScriptTest2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CCDB691BAC654C0002692C /* Debug */,
+				19CCDB6A1BAC654C0002692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19CCDB3A1BAC654B0002692C /* Project object */;
+}
